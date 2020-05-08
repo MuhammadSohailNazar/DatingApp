@@ -41,7 +41,7 @@ namespace DatingApp.API.Controllers
         //    })
         //    .ToArray();
         //}
-
+        [AllowAnonymous]
         [HttpGet]
         public async  Task<IActionResult> GetValues()
         {
